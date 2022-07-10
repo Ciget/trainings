@@ -1,0 +1,15 @@
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Runner
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Runner.deps.json
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Runner.runtimeconfig.json
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Runner.dll
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Runner.pdb
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.csproj.AssemblyReference.cache
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.AssemblyInfoInputs.cache
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.AssemblyInfo.cs
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.csproj.CoreCompileInputs.cache
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.dll
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/refint/Runner.dll
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.pdb
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.genruntimeconfig.cache
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/ref/Runner.dll

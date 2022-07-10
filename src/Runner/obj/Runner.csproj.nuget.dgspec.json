@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/viktor/Projects/trainings/src/Runner/Runner.csproj": {}
+  },
+  "projects": {
+    "/Users/viktor/Projects/trainings/src/Algo/Algo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viktor/Projects/trainings/src/Algo/Algo.csproj",
+        "projectName": "Algo",
+        "projectPath": "/Users/viktor/Projects/trainings/src/Algo/Algo.csproj",
+        "packagesPath": "/Users/viktor/.nuget/packages/",
+        "outputPath": "/Users/viktor/Projects/trainings/src/Algo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viktor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viktor/Projects/trainings/src/Runner/Runner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viktor/Projects/trainings/src/Runner/Runner.csproj",
+        "projectName": "Runner",
+        "projectPath": "/Users/viktor/Projects/trainings/src/Runner/Runner.csproj",
+        "packagesPath": "/Users/viktor/.nuget/packages/",
+        "outputPath": "/Users/viktor/Projects/trainings/src/Runner/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viktor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/viktor/Projects/trainings/src/Algo/Algo.csproj": {
+                "projectPath": "/Users/viktor/Projects/trainings/src/Algo/Algo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
