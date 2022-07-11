@@ -13,3 +13,6 @@
 /Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.pdb
 /Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.genruntimeconfig.cache
 /Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/ref/Runner.dll
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Algo.dll
+/Users/viktor/Projects/trainings/src/Runner/bin/Debug/net6.0/Algo.pdb
+/Users/viktor/Projects/trainings/src/Runner/obj/Debug/net6.0/Runner.csproj.CopyComplete

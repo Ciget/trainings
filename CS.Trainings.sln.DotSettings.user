@@ -1,8 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=298ffee9_002Df972_002D4e3b_002Dace2_002D22b5a6a6fdbc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Or&gt;
-    &lt;ProjectFile&gt;8FA162A4-BF61-46B1-8F65-234FBC3DB3F8/d:Searching/f:Binary704Tests.cs&lt;/ProjectFile&gt;
-    &lt;ProjectFile&gt;8FA162A4-BF61-46B1-8F65-234FBC3DB3F8/f:FirstBadVersion278Test.cs&lt;/ProjectFile&gt;
-    &lt;ProjectFile&gt;8FA162A4-BF61-46B1-8F65-234FBC3DB3F8/d:Searching/f:InsertPosition35Test.cs&lt;/ProjectFile&gt;
+    &lt;Not&gt;
+      &lt;And&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;xUnit::8FA162A4-BF61-46B1-8F65-234FBC3DB3F8::net6.0::Algo.UnitTest.LongestValidParentheses32Test&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+        &lt;Project Location="/Users/viktor/Projects/trainings/test/Algo.UnitTest" Presentation="&amp;lt;test&amp;gt;\&amp;lt;Algo.UnitTest&amp;gt;" /&gt;
+        &lt;Namespace&gt;Algo.UnitTest&lt;/Namespace&gt;
+      &lt;/And&gt;
+    &lt;/Not&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::8FA162A4-BF61-46B1-8F65-234FBC3DB3F8::net6.0::Algo.UnitTest.LongestValidParentheses32Test.ShouldBe4&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;8FA162A4-BF61-46B1-8F65-234FBC3DB3F8/f:LongestValidParentheses32Test.cs&lt;/ProjectFile&gt;
   &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
