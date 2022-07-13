@@ -7,6 +7,27 @@ public class BinaryTreeTest
 {
     private BinaryTree _engine = new BinaryTree();
     
+    
+    [Fact]
+    public void ShouldReturnTrue()
+    {
+        var b = new Node<string>("b", new Node<string>("d"), new Node<string>("e"));
+        var c = new Node<string>("c", new Node<string>("f"));
+        var root = new Node<string>("a", b, c);
+
+        _engine.IsPartOfTree(root, "e").Should().BeTrue();
+    }
+    
+    [Fact]
+    public void ShouldReturnFalse()
+    {
+        var b = new Node<string>("b", new Node<string>("d"), new Node<string>("e"));
+        var c = new Node<string>("c", new Node<string>("f"));
+        var root = new Node<string>("a", b, c);
+
+        _engine.IsPartOfTree(root, "g").Should().BeFalse();
+    }
+    
     [Fact]
     public void ShouldReturnBreadthFirstPath()
     {

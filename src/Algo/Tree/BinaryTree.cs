@@ -6,6 +6,28 @@ public class BinaryTree
     {
     }
 
+    public bool IsPartOfTree(Node<string> input, string target)
+    {
+        if (input == null) return false;
+        
+        Queue<Node<string>> queue = new Queue<Node<string>>();
+        queue.Enqueue(input);
+
+        while (queue.Count > 0)
+        {
+            var current = queue.Dequeue();
+            if (current.Value == target)
+            {
+                return true;
+            }
+            
+            if (current.Left!=null) queue.Enqueue(current.Left);
+            if (current.Right!=null) queue.Enqueue(current.Right);
+        }
+
+        return false;
+    }
+    
     public string BreadthFirst(Node<string> input)
     {
         string result = "";
