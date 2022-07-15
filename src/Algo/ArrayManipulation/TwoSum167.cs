@@ -2,6 +2,24 @@ namespace Algo.ArrayManipulation;
 
 public class TwoSum167
 {
+    public int[] TwoSumNotSorter(int[] nums, int target)
+    {
+        Dictionary<int, int> _set = new Dictionary<int, int>();
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            int diff = target - nums[i];
+            if (_set.ContainsKey(diff))
+            {
+                return new[] { _set[diff], i};
+            }
+
+            if (!_set.ContainsKey(nums[i])) _set.Add(nums[i], i);
+        }
+
+        return null;
+    }
+    
     public int[] TwoSum(int[] numbers, int target)
     {
         int low = 0;
