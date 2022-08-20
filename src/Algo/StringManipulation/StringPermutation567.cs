@@ -18,14 +18,15 @@ public class StringPermutation567
         {
             Dictionary<char, int> _temp = new Dictionary<char, int>();
 
-            if (match(s1map, s2map))
-            {
-            }
+            //if (match(s1map, s2map))
+            //{
+            //}
         }
+        return false;
 
     }
 
-    private bool match(Dictionary<char, int> s1, Dictionary<char, int> s2)
-    {
-    }
+    //private bool match(Dictionary<char, int> s1, Dictionary<char, int> s2)
+    //{
+    //}
 }
