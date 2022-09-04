@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Sequences\" />
+      <None Remove="BFS\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Sequences\" />
+      <Folder Include="BFS\" />
+    </ItemGroup>
 </Project>

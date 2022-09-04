@@ -26,4 +26,12 @@
       <ProjectReference Include="..\..\src\Algo\Algo.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Sequence\" />
+      <None Remove="BFS\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Sequences\" />
+      <Folder Include="BFS\" />
+    </ItemGroup>
 </Project>
