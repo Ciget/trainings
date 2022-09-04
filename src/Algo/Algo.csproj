@@ -9,9 +9,11 @@
     <ItemGroup>
       <None Remove="Sequences\" />
       <None Remove="BFS\" />
+      <None Remove="Stack\" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Sequences\" />
       <Folder Include="BFS\" />
+      <Folder Include="Stack\" />
     </ItemGroup>
 </Project>
