@@ -18,6 +18,15 @@ namespace Algo.UnitTest.StringManipulation
         {
             _engine.IsPalindrome(input).Should().Be(result);
         }
+
+        [Theory]
+        [InlineData("cbbd", "bb")]
+        [InlineData("babad", "aba")]
+        [InlineData("aacabdkacaa", "aca")]
+        public void ShouldFindLongestPalindrom(string input, string result)
+        {
+            _engine.LongestPalindrome(input).Should().Be(result);
+        }
     }
 }
 
