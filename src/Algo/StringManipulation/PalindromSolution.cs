@@ -14,8 +14,9 @@ namespace Algo.StringManipulation
 
         public string LongestPalindrome(string s)
         {
-            if (String.IsNullOrEmpty(s)) return string.Empty;
-            int start= 0, end=0;
+            if (String.IsNullOrEmpty(s)) return "";
+
+            int start = 0, end = 0;
 
             for (int i = 0; i < s.Length; i++)
             {
@@ -23,29 +24,33 @@ namespace Algo.StringManipulation
                 int len2 = ExpandFromMiddle(s, i, i + 1);
 
                 int longest = Math.Max(len1, len2);
+
                 if (longest > end - start)
                 {
-                    start = i - ((longest - 1) / 2);
-                    end = i + longest/2;
-                   // Console.WriteLine($"Start: {start}; end: {end}");
+                    start = i - (longest - 1) / 2;
+                    end = i + longest / 2;
                 }
             }
-            
-            return s.Substring(start, end-start+1);
+
+            return s.Substring(start, end - start + 1);
         }
 
-        protected int ExpandFromMiddle(string input, int leftIndex, int rightIndex)
+        protected int ExpandFromMiddle(string input, int left, int right)
         {
-            if (String.IsNullOrEmpty(input) || leftIndex > rightIndex) return 0;
+            if (string.IsNullOrEmpty(input) || left > right) return 0;
 
-            while (leftIndex >= 0 && rightIndex < input.Length && input[rightIndex]==input[leftIndex])
+            while (left >= 0 && right < input.Length && input[left] == input[right])
             {
-                rightIndex++;
-                leftIndex--;
+                left--;
+                right++;
             }
 
-            return rightIndex - leftIndex - 1;
+            return right - left - 1;
+        }
 
+        public string ShortestPalindrome(string s)
+        {
+            return "";
         }
     }
 }
