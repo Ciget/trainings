@@ -406,3 +406,4 @@ ASALocalRun/
 .localhistory/
 *.dll
 docs/.$System design.drawio.bkp
+*.dtmp
