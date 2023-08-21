@@ -20,4 +20,13 @@ public class ReserveWords557Test
         var input = "God Ding";
         _engine.ReverseWords(input).Should().Be("doG gniD");
     }
+    
+    //151. Reverse Words in a String
+    [Theory]
+    [InlineData("the sky is blue", "blue is sky the")]
+    [InlineData("  hello world  ", "world hello")]
+    public void ShouldReverseWordsCorrecly(string input, string result)
+    {
+        _engine.ReverseWords2(input).Should().Be(result);
+    }
 }

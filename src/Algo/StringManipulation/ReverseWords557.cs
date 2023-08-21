@@ -30,4 +30,20 @@ public class ReverseWords557
 
         return result;
     }
+
+    public string ReverseWords2(string s)
+    {
+        StringBuilder sb = new StringBuilder();
+
+        string[] words = s.Split(' ');
+
+        for (int i = words.Length-1; i>=0 ; i--)
+        {
+            if (words[i].Length == 0) continue;
+            if (sb.Length > 0) sb.Append(" ");
+            sb.Append(words[i]);
+        }
+
+        return sb.ToString();
+    }
 }
