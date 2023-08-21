@@ -1,6 +1,6 @@
 namespace Algo.LinkedListManipulation;
 
-public class AddTwoNumbers
+public class NumbersList
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2, int carry = 0)
     {
@@ -9,4 +9,5 @@ public class AddTwoNumbers
         carry = val / 10;
         return new ListNode(val % 10, AddTwoNumbers(l1?.next, l2?.next, carry));
     }
+
 }
