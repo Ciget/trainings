@@ -11,11 +11,11 @@ namespace Algo.ArrayManipulation
 
             foreach (var t in nums)
             {
-                if (t < first)
+                if (t <= first)
                 {
                     first = t;
                 }
-                else if (t < second)
+                else if (t <= second)
                 {
                     second = t;
                 }
