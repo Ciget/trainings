@@ -9,7 +9,7 @@ public class FirstBadVersion278: VersionControl {
 
         while (lastGoodVersion<lastBadVersion)
         {
-            var pivot=lastGoodVersion + (lastBadVersion - lastGoodVersion)/2;
+            var pivot= lastGoodVersion + (lastBadVersion - lastGoodVersion)/2;
             if (IsBadVersion(pivot))
             {
                 lastBadVersion = pivot;
