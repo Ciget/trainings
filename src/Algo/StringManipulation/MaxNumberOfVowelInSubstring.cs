@@ -8,27 +8,34 @@ namespace Algo.StringManipulation
         {
             if (k == 0 || s.Length == 0) return 0;
 
-            int cntVowel = 0;
+            int cntVowel = 0, result=0;
 
-            for (int i = 0; i <= s.Length-k; i++)
+            for (int i = 0; i < k; i++)
             {
-                int vowel = 0;
-                for (int j = i; j < i+k; j++)
+                if (IsVowel(s[i]))
                 {
-                    if (IsVowel(s[j]))
-                    {
-                        vowel++;
-                    }
-                }
-
-                if (vowel > cntVowel)
-                {
-                    cntVowel = vowel;
-                    if (cntVowel == k) return cntVowel;
+                    cntVowel++;
                 }
             }
+            result = cntVowel;
 
-            return cntVowel;
+            for (int i = k; i < s.Length; i++)
+            {
+                if (IsVowel(s[i]))
+                {
+                    cntVowel++;
+                }
+
+                if (IsVowel(s[i-k]))
+                {
+                    cntVowel--;
+                }
+
+                result = Math.Max(result, cntVowel);
+                if (result == k) return result;
+            }
+
+            return result;
         }
 
         private bool IsVowel(char c)
