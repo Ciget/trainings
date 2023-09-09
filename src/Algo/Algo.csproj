@@ -16,7 +16,6 @@
     <ItemGroup>
       <Folder Include="Sequences\" />
       <Folder Include="BFS\" />
-      <Folder Include="Stack\" />
       <Folder Include="Graph\" />
       <Folder Include="Queue\" />
     </ItemGroup>

@@ -1,7 +1,7 @@
-using Algo.StringManipulation;
+using Algo.Stack;
 using FluentAssertions;
 
-namespace Algo.UnitTest.StringManipulation;
+namespace Algo.UnitTest.Stack;
 
 public class RemovingStarsEngineTest
 {

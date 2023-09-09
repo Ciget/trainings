@@ -1,6 +1,4 @@
-using System.Text;
-
-namespace Algo.StringManipulation;
+namespace Algo.Stack;
 
 public class RemovingStars
 {
