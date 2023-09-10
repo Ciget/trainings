@@ -7,53 +7,29 @@ namespace Algo.StringManipulation
 
         public string DecodeString(string s)
         {
-            string result = "";
+            Stack<char> stack = new Stack<char>();
             char currentChar;
-            _stack.Clear();
-
-            for (int index = 0; index < s.Length; index++)
+            for (int i = 0; i < s.Length; i++)
             {
-                if (s[index] != ']')
+                if (s[i] != ']')
                 {
-                    _stack.Push(s[index]);
+                    stack.Push(s[i]);
                     continue;
                 }
 
-                //handle ]
-                string decodeStr = "";
-                int k = 0;
-                //get string
-
-                while (_stack.Count>0)
+                string decoderString = "";
+                while (stack.Count > 0)
                 {
-                    currentChar = _stack.Pop();
+                    currentChar = stack.Pop();
                     if (currentChar == '[') break;
-                    decodeStr = currentChar + decodeStr;
+                    decoderString = decoderString + currentChar;
                 }
-
-                //get number
-                int tempNumber = 0;
-                string stringNumber = "";
-                while (_stack.Count>0 && int.TryParse(_stack.Peek().ToString(),out tempNumber))
-                {
-                    stringNumber = _stack.Pop()+ stringNumber;
-                }
-                int.TryParse(stringNumber, out tempNumber);
-
-                for (int i = 0; i < tempNumber; i++)
-                {
-                    for (int j = 0; j < decodeStr.Length; j++)
-                    {
-                        _stack.Push(decodeStr[j]);
-                    }
-                }
+                
+                
             }
+            
 
-            while (_stack.Count > 0)
-            {
-                result = _stack.Pop()+ result;
-            }
-            return result;
+            return new string(stack.ToArray());
         }
     }
 }

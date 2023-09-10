@@ -17,6 +17,5 @@
       <Folder Include="Sequences\" />
       <Folder Include="BFS\" />
       <Folder Include="Graph\" />
-      <Folder Include="Queue\" />
     </ItemGroup>
 </Project>
