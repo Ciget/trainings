@@ -10,7 +10,6 @@ public class OddEvenLinkedList
         ListNode evenHead = head.next;
         ListNode even = head.next;
         ListNode odd = head;
-        ListNode currentNode = head;
 
         while (even != null && even.next != null)
         {
