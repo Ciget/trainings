@@ -1,5 +1,6 @@
 ﻿using System;
 using Algo.BFS;
+using Algo.Tree.BFS;
 using FluentAssertions;
 
 namespace Algo.UnitTest.BFS

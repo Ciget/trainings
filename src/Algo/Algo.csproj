@@ -15,7 +15,6 @@
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Sequences\" />
-      <Folder Include="BFS\" />
       <Folder Include="Graph\" />
     </ItemGroup>
 </Project>

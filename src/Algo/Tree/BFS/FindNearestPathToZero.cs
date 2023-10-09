@@ -1,5 +1,4 @@
-﻿using System;
-namespace Algo.BFS
+﻿namespace Algo.Tree.BFS
 {
     public class FindNearestPathToZero
     {
