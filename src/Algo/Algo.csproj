@@ -14,7 +14,6 @@
       <None Remove="Queue\" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Sequences\" />
       <Folder Include="Graph\" />
     </ItemGroup>
 </Project>
